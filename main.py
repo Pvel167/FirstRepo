@@ -4,9 +4,8 @@ value = 1
 equals = 0
 
 while value == 1:
-    quit = input("\nНажмите ENTER чтобы продолжить или Q чтобы выйти: ").lower()
-    if quit == 'q':
-        exit
+    quit_ = input("\nНажмите ENTER чтобы продолжить или Q чтобы выйти: ").lower()
+    if quit_ == 'q':
         break
     else:
         # получаем исходные данные и выводим структуру уравнения
